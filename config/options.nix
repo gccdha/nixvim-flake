@@ -1,4 +1,6 @@
 {self, ...}: {
-  viAlias = true;
-  vimAlias = true;
+  config = {
+    viAlias = true;
+    vimAlias = true;
+  };
 }
