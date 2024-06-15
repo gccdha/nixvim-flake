@@ -32,6 +32,6 @@ Todo:
  - coq            (completion)
  - nvim-treesitter(more LSP stuff??)
  - nvim-lint      (what even is linting?)
-
+ - OTHER STUFF TOO
 
 
