@@ -1,17 +1,37 @@
-# Nixvim template
+# Nixvim Config
 
-This template gives you a good starting point for configuring nixvim standalone.
+Todo:
+- Install programs for syntax highlighting/linting/autocompletion
+    - C[++]
+    - MD
+    - Python
+    - Nix
+    - CSS/HTML
+    - TEX
+- figure out why tabs are sometimes 4 chars long
+- Find some other utilities and asthetics to install
+- set up keybinds
 
-## Configuring
 
-To start configuring, just add or modify the nix files in `./config`.
-If you add a new configuration file, remember to add it to the
-[`config/default.nix`](./config/default.nix) file
+---
+## Plugins to get/configure/learn
 
-## Testing your new configuration
+### Learn
+#### Configure
+- bufferline
+- nvim-tree
+##### Get
+ - vim-surround   (to surrond thing with quotes etc)
+ - nvim-lspconfig (for LSP servers) (also see: https://andrewcourter.substack.com/p/neovim-lsp-basics)
+ - fzf            (global fuzzy search)
+ - dashboard-nvim (startup screen editor)
+ - lspsaga        (more LSP stuff? make sure not redundant)
+ - feline-nvim    (status line)(also see: lualine)
+ - floaterm       (floating terminal?)
+ - nvim-dap       (debugger support)
+ - coq            (completion)
+ - nvim-treesitter(more LSP stuff??)
+ - nvim-lint      (what even is linting?)
 
-To test your configuration simply run the following command
 
-```
-nix run .
-```
+

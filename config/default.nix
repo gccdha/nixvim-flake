@@ -3,5 +3,6 @@
   imports = [ 
     ./bufferline.nix
     ./options.nix
+    ./nvim-tree.nix
   ];
 }
