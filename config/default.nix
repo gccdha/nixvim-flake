@@ -4,5 +4,9 @@
     ./bufferline.nix
     ./options.nix
     ./nvim-tree.nix
+    ./lsp.nix
+    ./color-schemes.nix
+    ./treesitter.nix
+    ./ufo.nix
   ];
 }

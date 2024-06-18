@@ -1,0 +1,30 @@
+nvim-surround
+  nvim-treesitter-textobjects
+coq.nvim (requires python, python3-venv and sqlite, idk how nixvim handles that)
+markdown.nvim (both)
+  markdown, markdown_inline, and latex treesitter parsers
+easytables
+marks.nvim
+zen-mode.nvim
+twilight.nvim
+colortils.nvim
+nvim-highlight-colors
+themery.nvim
+deadcolumn.nvim
+nvim-lualine
+vim-illuminate
+visual-whitespace.nvim
+alpha-nvim
+icon-picer.nvim
+img-clip.nvim
+image.nvim
+
+
+## colorscheme
+kanagawa.nvim
+Mofiqul/vscode.nvim
+melange-nvim
+everforest
+tokyodark.nvim
+fluoromachine.nvim
+miasma.nvim
