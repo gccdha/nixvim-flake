@@ -5,7 +5,6 @@ markdown.nvim (both)
   markdown, markdown_inline, and latex treesitter parsers
 easytables
 marks.nvim
-zen-mode.nvim
 twilight.nvim
 colortils.nvim
 nvim-highlight-colors
@@ -18,7 +17,39 @@ alpha-nvim
 icon-picer.nvim
 img-clip.nvim
 image.nvim
-
+  kitty
+  magick LuaRock
+cheatsheet.nvim
+nvim.notify
+cybu.nvim
+nvim-numbertoggle
+vim-nix
+nvim-dap
+  nvim-dap-virtual-text
+  nvim-dap-ui
+    nvim-nio
+hardtime.nvim
+toggleterm.nvim
+gitsigns.nvim
+precognition.nvim
+leap.nvim
+  repeat.vim
+nvim-spider
+which-key.nvim
+live-command.nvim
+true-zen.nvim
+rainbow-delimiters.nvim
+nvim-autopairs
+comment.nvim
+trouble.nvim
+nvim-web-devicons
+todo-comments.nvim
+  ripgrep
+neogen
+cellular-automaton.nvim
+indent-blankline.nvim
+telescope.nvim
+  plenary.nvim
 
 ## colorscheme
 kanagawa.nvim
@@ -28,3 +59,4 @@ everforest
 tokyodark.nvim
 fluoromachine.nvim
 miasma.nvim
+
