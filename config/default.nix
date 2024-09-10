@@ -8,5 +8,6 @@
     ./color-schemes.nix
     ./treesitter.nix
     ./ufo.nix
+    ./vimtex.nix
   ];
 }
