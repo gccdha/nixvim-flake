@@ -9,5 +9,19 @@
     ./treesitter.nix
     ./ufo.nix
     ./vimtex.nix
+
+    #  ./alpha.nix
+    #  ./coq.nix
+    #  ./gitsigns.nix
+    #  ./hardtime.nix
+    #  ./indent-blankline.nix
+    #  ./marks.nix
+    #  ./lualine.nix
+    #  ./notify.nix
+    #  ./themery.nix
+    #  ./rainbow-delimiters.nix
+    #  ./todo-comments.nix
+    #  ./true-zen.nix
+    #  ./vim-illuminate.nix
   ];
 }
