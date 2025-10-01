@@ -23,5 +23,6 @@
     #  ./todo-comments.nix
     #  ./true-zen.nix
     #  ./vim-illuminate.nix
+    ./web-devicons.nix
   ];
 }
