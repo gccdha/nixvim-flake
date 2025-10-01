@@ -10,8 +10,8 @@
     ./ufo.nix
     ./vimtex.nix
 
-    #  ./alpha.nix
-    #  ./coq.nix
+    ./alpha.nix
+    ./coq.nix
     #  ./gitsigns.nix
     #  ./hardtime.nix
     #  ./indent-blankline.nix
