@@ -10,7 +10,6 @@
     };
   })];
   colorschemes = {
-    vscode.enable = false;
     girly.enable = true;
   };
 }
