@@ -9,7 +9,5 @@
         hash = "1xw8ddkvr39fgkjkxdf1fz1z5iqsid0xrq9srp4n346wl0fshr1d";
     };
   })];
-  colorschemes = {
-    girly.enable = true;
-  };
+  colorscheme = "girly";
 }
