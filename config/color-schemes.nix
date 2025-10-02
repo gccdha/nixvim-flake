@@ -10,4 +10,5 @@
     };
   })];
   colorscheme = "girly";
+  colorschemes.vscode.enable = true;
 }
