@@ -19,6 +19,12 @@
                   vim.opt.background = 'dark'
                 ]],
             },
+            { name = 'VS Code light',
+                colorscheme = 'vscode',
+                before = [[
+                  vim.opt.background = 'light'
+                ]],
+            },
         }
   })";
 } 
