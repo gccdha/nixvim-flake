@@ -11,7 +11,8 @@
     ./vimtex.nix
 
     ./alpha.nix
-    # ./coq.nix
+    ./nvim-cmp.nix
+    #./colorful-menue.nix
     ./gitsigns.nix
     # ./hardtime.nix
     ./indent-blankline.nix
