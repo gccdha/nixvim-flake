@@ -6,6 +6,7 @@
       clangd.enable = true;        # C/C++
       nixd.enable = true;          # Nix
       pylsp.enable = true;         # Python
+      metals.enable = true;        # Scala
       rust_analyzer = {            # Rust
         enable = true;               # LSP
         installCargo = true;         # Req. Cargo
