@@ -20,8 +20,8 @@
       '';
       mapping = {
         "<C-Space>" = "cmp.mapping.complete()";
-        "<Up>" = "cmp.mapping.scroll_docs(4)";
-        "<Down>" = "cmp.mapping.scroll_docs(-4)";
+        "<Up>" = "cmp.mapping.scroll_docs(-4)";
+        "<Down>" = "cmp.mapping.scroll_docs(4)";
         "<CR>" = "cmp.mapping.confirm({ select = true })";
         "<S-Tab>" = "cmp.mapping(cmp.mapping.select_prev_item(), {'i', 's'})";
         "<Tab>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
