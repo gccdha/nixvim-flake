@@ -3,20 +3,20 @@
     {
       mode = "n";
       key = "<leader>e";
-      action = "vim.diagnostic.open_float()";
+      action = ":lua vim.diagnostic.open_float()<CR>";
       options.desc = "Show diagnostics under cursor";
     }
     {
       mode = "n";
       key = "]d";
-      action = "vim.diagnostic.goto_next()";
+      action = ":lua vim.diagnostic.goto_next()<CR>";
       options.desc = "Jump to next diagnostic";
     }
     {
       mode = "n";
       key = "[d";
-      action = "vim.diagnostic.goto_prev()";
-      options.desc = "Jump to prev diagnostic";
+      action = ":lua vim.diagnostic.goto_prev()<CR>";
+      options.desc = "Jump to next prev diagnostic";
     } 
   ];
 }
