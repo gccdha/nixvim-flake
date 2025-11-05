@@ -25,5 +25,6 @@
     ./true-zen.nix
     # ./vim-illuminate.nix
     ./web-devicons.nix
+    ./luasnip.nix
   ];
 }
