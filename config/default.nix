@@ -26,5 +26,6 @@
     # ./vim-illuminate.nix
     ./web-devicons.nix
     ./luasnip.nix
+    ./keymaps.nix
   ];
 }
