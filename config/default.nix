@@ -27,5 +27,6 @@
     ./web-devicons.nix
     ./luasnip.nix
     ./keymaps.nix
+    ./colorizer.lua
   ];
 }
