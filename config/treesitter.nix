@@ -1,7 +1,7 @@
 {
   plugins.treesitter = {
     enable = true;
-    folding = false;
+    folding.enable = false;
     indent.enable = true;
   };
 }
