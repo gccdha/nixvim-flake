@@ -10,6 +10,8 @@
       pylsp.enable = true;         # Python
       metals.enable = true;        # Scala
       texlab.enable = true;        # LaTeX
+      tinymist.enable = true;      # Typst
+      verible.enable = true;       # SystemVerilog
       rust_analyzer = {            # Rust
         enable = true;               # LSP
         installCargo = true;         # Req. Cargo
