@@ -29,4 +29,16 @@
     ./keymaps.nix
     ./colorizer.lua
   ];
+
+  # autosave typst files
+  programs.nixvim = {
+    autoCmd = [
+      {
+        event = [ "InsertLeave" "TextChanged" ];
+        pattern = "*.typ";
+        command = "silent! write";
+      }
+    ];
+  };
+
 }
