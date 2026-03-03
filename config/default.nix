@@ -14,7 +14,7 @@
     ./nvim-cmp.nix
     #./colorful-menue.nix
     ./gitsigns.nix
-    # ./hardtime.nix
+    ./hardtime.nix
     ./indent-blankline.nix
     ./marks.nix
     ./lualine.nix
@@ -24,6 +24,7 @@
     ./todo-comments.nix
     ./true-zen.nix
     # ./vim-illuminate.nix
+    ./nvim-surround.nix
     ./web-devicons.nix
     ./luasnip.nix
     ./keymaps.nix
