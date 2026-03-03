@@ -6,7 +6,7 @@
     ./nvim-tree.nix
     ./lsp.nix
     ./color-schemes.nix
-    ./treesitter.nix
+    # ./treesitter.nix
     ./ufo.nix
     ./vimtex.nix
 
