@@ -39,5 +39,6 @@
       command = "write";
     }
   ];
-
+  
+  extraConfigLua = "local last_error_count = 0\nvim.api.nvim_create_autocmd(\"DiagnosticChanged\", {\n  callback = function(args)\n    local errors = vim.diagnostic.get(args.buf, { severity = vim.diagnostic.severity.ERROR })\n    if #errors > last_error_count then\n      vim.fn.jobstart({ \"paplay\", \"/home/realram/Music/music/always_cloudy/saturdays at your place - always cloudy - 02 Fetch.mp3\" }, { detach = true })\n    end\n    last_error_count = #errors\n  end,\n})";
 }
