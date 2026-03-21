@@ -7,7 +7,7 @@
       html.enable = true;          # HTML
       cssls.enable = true;         # CSS
       nixd.enable = true;          # Nix
-      pylsp.enable = true;         # Python
+      basedpyright.enable = true;  # Python
       metals.enable = true;        # Scala
       texlab.enable = true;        # LaTeX
       tinymist.enable = true;      # Typst
