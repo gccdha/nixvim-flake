@@ -12,6 +12,7 @@
       texlab.enable = true;        # LaTeX
       tinymist.enable = true;      # Typst
       verible.enable = true;       # SystemVerilog
+      hls.enable = true;           # Haskell
       rust_analyzer = {            # Rust
         enable = true;               # LSP
         installCargo = true;         # Req. Cargo
