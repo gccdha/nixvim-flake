@@ -29,7 +29,7 @@
     ./luasnip.nix
     ./keymaps.nix
     ./colorizer.lua
-    ./copilot.nix
+    # ./copilot.nix
   ];
 
   # autosave typst files
