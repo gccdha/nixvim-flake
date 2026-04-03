@@ -8,14 +8,8 @@
   };
 
   outputs =
-    { nixvim, flake-parts, nixpkgs,  ... }@inputs:
+    { nixvim, flake-parts, ... }@inputs:
     flake-parts.lib.mkFlake { inherit inputs; } {
-    nixpkgs = {
-      config.allowUnfreePredicate = pkg:
-        builtins.elem (nixpkgs.lib.getName pkg) [
-          "copilot.vim"
-        ];
-    };
       systems = [
         "x86_64-linux"
         "aarch64-linux"
@@ -26,6 +20,10 @@
       perSystem =
         { pkgs, system, ... }:
         let
+          pkgs = import inputs.nixpkgs {
+            inherit system;
+            config.allowUnfree = true;
+          };
           nixvimLib = nixvim.lib.${system};
           nixvim' = nixvim.legacyPackages.${system};
           nixvimModule = {
