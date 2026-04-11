@@ -11,7 +11,12 @@
       metals.enable = true;        # Scala
       texlab.enable = true;        # LaTeX
       tinymist.enable = true;      # Typst
-      verible.enable = true;       # SystemVerilog
+      verible = {
+        enable = true;       # SystemVerilog
+        settings = {
+          format_on_save = true;
+        };
+      };
       hls.enable = true;           # Haskell
       rust_analyzer = {            # Rust
         enable = true;               # LSP

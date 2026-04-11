@@ -10,6 +10,7 @@
       shiftwidth = 2;
       softtabstop = 2;
       expandtab = true;
+      autoindent = true;
       smartindent = true;
       wrap = false; # use ":set wrap" to change this if you need it in certain files
       breakindent = true;
