@@ -12,7 +12,7 @@
       nix
       regex
       toml
-      verilog
+      systemverilog
     ];
   };
 }
