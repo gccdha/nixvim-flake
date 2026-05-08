@@ -12,16 +12,19 @@
       texlab.enable = true;        # LaTeX
       tinymist.enable = true;      # Typst
       verible = {
-        enable = true;       # SystemVerilog
+        enable = true;             # SystemVerilog
         settings = {
           format_on_save = true;
         };
       };
-      hls.enable = true;           # Haskell
-      rust_analyzer = {            # Rust
+      hls = {                      # Haskell
         enable = true;               # LSP
-        installCargo = true;         # Req. Cargo
-        installRustc = true;         # Req. Rustc
+        installGhc = true;           # Req. compiler
+      };
+      rust_analyzer = {             # Rust
+        enable = true;                # LSP
+        installCargo = true;          # Req. Cargo
+        installRustc = true;          # Req. Rustc
       };
     };
   };
