@@ -11,6 +11,7 @@
       metals.enable = true;        # Scala
       texlab.enable = true;        # LaTeX
       tinymist.enable = true;      # Typst
+      ts_ls.enable = true;         # TS and JS
       verible = {
         enable = true;             # SystemVerilog
         settings = {
