@@ -27,6 +27,7 @@
         installCargo = true;          # Req. Cargo
         installRustc = true;          # Req. Rustc
       };
+      qmlls.enable = true;         #QML (QT markup language)
     };
   };
 }
