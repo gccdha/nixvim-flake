@@ -37,7 +37,14 @@
     {
       event = [ "InsertLeave" "TextChanged" ];
       pattern = "*.typ";
-      command = "write";
+      # command = "write";
+      callback = {
+        __raw=''function()
+          if vim.bo.buftype == "" and vim.bo.modified then
+            vim.cmd("silent write")
+          end
+        end'';
+      };
     }
   ];
   
