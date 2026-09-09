@@ -29,7 +29,6 @@
         installRustc = true;          # Req. Rustc
       };
       qmlls.enable = true;         #QML (QT markup language)
-      roc_ls.enable = true;        #Roc language server
       zls.enable = true;           #Zig language server
     };
   };
