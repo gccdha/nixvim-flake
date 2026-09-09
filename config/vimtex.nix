@@ -1,6 +1,6 @@
 {pkgs,...}:{
   plugins.vimtex = {
-    texlivePackage = pkgs.texlive.combined.scheme-full;
+    texlivePackage = pkgs.texliveFull;
     enable = true;
   };
 }
