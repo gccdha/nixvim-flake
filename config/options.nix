@@ -2,9 +2,6 @@
   config = {
     viAlias = true;
     vimAlias = true;
-    globals = {
-      winborder="rounded";
-    };
 
     #=====OPTIONS=====
     opts = {
@@ -36,6 +33,7 @@
       cursorline = true;
       list = true;
       listchars = "eol:↲,tab:|->,lead:·,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
+      winborder = "rounded";
 
       #---BEHAVIOR---
       hidden = true;
