@@ -11,7 +11,7 @@
         { name = "buffer"; }
         { name = "emoji"; }
         { name = "spell"; }
-        { name = "vimtex"; }
+        # { name = "vimtex"; }
       ];
       snippet.expand = ''
         function(args)

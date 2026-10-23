@@ -1,3 +1,4 @@
+# language server config
 {
   plugins.lsp = {
     enable = true;

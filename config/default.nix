@@ -18,7 +18,7 @@
     ./indent-blankline.nix
     ./marks.nix
     ./lualine.nix
-    # ./notify.nix
+    ./notify.nix
     ./themery.nix
     ./rainbow-delimiters.nix
     ./todo-comments.nix

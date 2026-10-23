@@ -2,6 +2,9 @@
   config = {
     viAlias = true;
     vimAlias = true;
+    globals = {
+      winborder="rounded";
+    };
 
     #=====OPTIONS=====
     opts = {

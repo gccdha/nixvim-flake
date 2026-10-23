@@ -1,3 +1,4 @@
+# color schemes
 {pkgs,...}:{
   extraPlugins = [(pkgs.vimUtils.buildVimPlugin {
     name = "girly";
