@@ -28,7 +28,7 @@
     ./web-devicons.nix
     ./luasnip.nix
     ./keymaps.nix
-    ./colorizer.lua
+    ./colorizer.nix
     # ./copilot.nix
   ];
 

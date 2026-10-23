@@ -33,9 +33,8 @@ Todo:
   - make them look better
   - figure out how groups work
 
-- colorizer.lua
+- colorizer.nix
     - set certain filetypes as the only ones that it works on by default
-    - why is it a lua file ?
 
 - color-schemes.nix
     - color schemes
