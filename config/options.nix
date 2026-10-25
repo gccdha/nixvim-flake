@@ -1,5 +1,8 @@
-{self, ...}: {
+{inputs, pkgs, self, ...}: {
+
+
   config = {
+    package = inputs.neovim-nightly-overlay.packages."${pkgs.stdenv.hostPlatform.system}".default;
     viAlias = true;
     vimAlias = true;
 
