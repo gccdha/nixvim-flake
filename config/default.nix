@@ -8,11 +8,10 @@
     ./color-schemes.nix
     ./treesitter.nix
     ./ufo.nix
-    ./vimtex.nix
+    # ./vimtex.nix
 
     ./alpha.nix
     ./nvim-cmp.nix
-    #./colorful-menue.nix
     ./gitsigns.nix
     ./hardtime.nix
     ./indent-blankline.nix
@@ -22,8 +21,6 @@
     ./themery.nix
     ./rainbow-delimiters.nix
     ./todo-comments.nix
-    ./true-zen.nix
-    # ./vim-illuminate.nix
     ./nvim-surround.nix
     ./web-devicons.nix
     ./luasnip.nix

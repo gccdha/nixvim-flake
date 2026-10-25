@@ -1,3 +1,4 @@
+# switch themes with live preview https://github.com/zaldih/themery.nvim#minimal-config
 {pkgs,...}:{
   extraPlugins = [pkgs.vimPlugins."themery-nvim"];
   extraConfigLua = "require('themery').setup({

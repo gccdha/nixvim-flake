@@ -1,3 +1,4 @@
+# parse the buffer, provide a bunch of info https://github.com/nvim-treesitter/nvim-treesitter
 { config, ... }:
 {
   plugins.treesitter = {
