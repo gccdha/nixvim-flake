@@ -29,6 +29,7 @@
       signcolumn = "yes";
       cmdheight = 1;
       scrolloff = 10;
+      sidescrolloff = 5;
       completeopt = ["menuone" "noinsert" "noselect"];
       cursorline = true;
       list = true;

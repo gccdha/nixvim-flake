@@ -1,7 +1,7 @@
 # Nixvim Config
 
 ## Plugins to get/configure/learn
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Learn
 - keybinds
     - get notes from email
@@ -13,8 +13,6 @@
 
 - themes
     - make the pink theme a bit better if possible
-    - try kanagawa and some others maybe i think i have a list somewhere
-    - remember that you can theme with themery
 
 - alpha.nix
   - configure greeter to actually work instead of not working... 
@@ -28,9 +26,6 @@
 
 - colorizer.nix
     - set certain filetypes as the only ones that it works on by default
-
-- color-schemes.nix
-    - color schemes
 
 - gitsigns.nix
     - figure out some of the more powerful features here
