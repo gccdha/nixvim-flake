@@ -177,12 +177,5 @@
 - switch to kitty for image stuff
 - figure out how to get hover docs lsp (lspaga ? other options ?)
 - figure out how to get a floating terminal
-
-## Themes
-kanagawa.nvim
-Mofiqul/vscode.nvim
-melange-nvim
-everforest
-tokyodark.nvim
-fluoromachine.nvim
-miasma.nvim
+- figure out how to make zellij keybinds not overlap with nvim ones that you use
+- get a smooth scroll and smooth cursor plugin
