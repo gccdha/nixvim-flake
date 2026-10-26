@@ -26,6 +26,8 @@
     ./luasnip.nix
     ./keymaps.nix
     ./colorizer.nix
+    ./cellular-automaton.nix
+    ./telescope.nix
     # ./copilot.nix
   ];
 

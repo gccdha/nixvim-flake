@@ -1,16 +1,12 @@
 # Nixvim Config
 
 ## Plugins to get/configure/learn
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Learn
 - keybinds
     - get notes from email
     - also take notes on plugin keybinds
 
 ### Configure
-- regular config (options.nix)
-    - make it so that there is some buffer as to how close to the left and right side of the screen the cursor can get
-
 - themes
     - make the pink theme a bit better if possible
 
@@ -32,9 +28,6 @@
     - look into fugitive.nvim for more features
         - will you ever use them in nvim? who knows
 
-- hardtime.nix
-    - make sure that all the messages are working. as is they get overwritten but the notifications should fix that
-
 - indent-blankline.nix
     - look into integrating with rainbow-delimiters and treesitter
 
@@ -54,16 +47,11 @@
 - marks.nix
     - just make sure you know what keybinds come from the plugin and which are the defaults
 
-- notify.nix
-    - not used yet just make sure it works
-
 - cmp.nix
     - figure out why spelling isn't working
     - figure out what "buffer" is doing 
-
-- nvim-surround.nix
-    - figure out how to *change* text between delims
-    - see if there are any features you can be using that you arent
+    - sometimes you want to press enter to create a newline but instead you complete something. this isn't such a big problem now that I am used to it but yeah. vscode uses tab to do the actuall completion
+    maybe I need something that cancels completion? because right now i tend to just press space. maybe formalize that as like, shift-space exits the menue?
 
 - nvim-tree
     - there is sooo much that I am not getting out of this i think
@@ -87,7 +75,8 @@
     - enable it again and try it out again. see if there is another native way to show folding marks
     - see how it interacts with marks.nvim and gitsigns and other gutter stuff (errors)
 
-
+- telescope.nvim
+    -  file picker, buffer picker, general purpose fuzzy finding (probably can replace a number of other plugins here)
 
 ### To get
 - illuminate nvim
@@ -147,12 +136,6 @@
 - neogen
     - inline docs comments editing for multiple languages (C, python, Rust)
 
-- cellular-automaton.nvim
-    - cool cellular-automaton that run on the current buffer
-
-- telescope.nvim
-    -  file picker, buffer picker, general purpose fuzzy finding (probably can replace a number of other plugins here)
-
 - nvim-lint
     - and linters like clippy to linting messages ( i think...)
 
@@ -161,7 +144,6 @@
 
 
 ## Misc Todo
-- ligatures!
 - obsidian?
 - multi-cursor
 - figure out how to configure cmp to be better
@@ -174,3 +156,4 @@
 - figure out how to get a floating terminal
 - figure out how to make zellij keybinds not overlap with nvim ones that you use
 - get a smooth scroll and smooth cursor plugin
+- figure out registers, look into plugins that can preview what is in them maybe
