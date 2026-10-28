@@ -20,9 +20,6 @@
   - make them look better
   - figure out how groups work
 
-- colorizer.nix
-    - set certain filetypes as the only ones that it works on by default
-
 - gitsigns.nix
     - figure out some of the more powerful features here
     - look into fugitive.nvim for more features
@@ -43,9 +40,6 @@
 - luasnip.nix
     - just like, figure out what this is and why and how to use it
     - get some snippets i guess
-
-- marks.nix
-    - just make sure you know what keybinds come from the plugin and which are the defaults
 
 - cmp.nix
     - figure out why spelling isn't working
@@ -157,3 +151,8 @@
 - figure out how to make zellij keybinds not overlap with nvim ones that you use
 - get a smooth scroll and smooth cursor plugin
 - figure out registers, look into plugins that can preview what is in them maybe
+
+# Notes
+- marks
+    - marks use m<letter> by default, m' and m\` work as expected
+    - marks.nvim adds dm<letter> to delete a mark, m] / m[ for going to next / prev, m: to previw a mark, m, to set the next lowercase mark, dm- to delete marks on line, dm<space> to delete marks in bufffer

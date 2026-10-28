@@ -28,6 +28,7 @@
     ./colorizer.nix
     ./cellular-automaton.nix
     ./telescope.nix
+    ./render-markdown.nix
     # ./copilot.nix
   ];
 
